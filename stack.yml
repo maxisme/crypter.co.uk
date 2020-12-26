@@ -6,9 +6,9 @@ services:
       mode: global
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.maxmeuk.rule=Host(`crypter.co.uk`)"
-        - "traefik.http.services.maxmeuk.loadbalancer.server.port=8080"
-        - "traefik.http.routers.maxmeuk.middlewares=404"
+        - "traefik.http.routers.cryptercouk.rule=Host(`crypter.co.uk`)"
+        - "traefik.http.services.cryptercouk.loadbalancer.server.port=8080"
+        - "traefik.http.routers.cryptercouk.middlewares=404"
     networks:
       - traefik
 
