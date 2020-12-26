@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   web:
-    image: maxisme/crypter:latest
+    image: maxisme/crypter.co.uk:latest
     deploy:
       mode: global
       labels:
