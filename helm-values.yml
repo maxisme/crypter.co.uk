@@ -1,6 +1,0 @@
-ingress:
-  match: "Host(`crypter.co.uk`)"
-
-image:
-  repository: "maxisme/crypter.co.uk"
-        
